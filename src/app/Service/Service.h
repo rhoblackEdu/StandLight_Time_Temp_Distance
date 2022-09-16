@@ -13,6 +13,7 @@ private:
     int lightState;
     View *view;
     bool bDistanceLight;
+    int distanceOffCounter;
 
 public:
     Service(View *viewer);
